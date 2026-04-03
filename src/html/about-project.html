@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>О проекте</title>
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		@@include('blocks/header.html')
+		<section class="back">
+			<div class="container">
+				<a href="../index.html">
+					<img src="img/left-arrow-black.svg" alt="стрелка">
+				    <button><span>Вернуться на главную</span></button>
+			    </a>
+			</div>
+		</section>
+		<section class="quote">
+			<div class="container">
+				<div class="quote-div">
+					<img src="img/Alexander-Lukashenko.png" alt="Александр Лукашенко">
+					<div class="quote-info">
+						<p>"Мы чествуем наших матерей, жен и дочерей один день в году. Настало время отдать должное их особой роли в нашей жизни и объявить 2026 год Годом белорусской женщины. Ничего более совершенного, чем она, природой не создано! Будем беречь нашу женщину и свою землю, защищать свое будущее - семью, родных, близких и друзей от бед и невзгод"</p>
+						<span>Александр Лукашенко</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="decree">
+			<div class="container">
+				<p>Президент Беларуси Александр Лукашенко подписал Указ № 1, которым 2026 год объявлен Годом белорусской женщины.</p>
+				<p>Документ принят в целях формирования национального образа женщины-труженицы, популяризации роли женщин в сохранении и развитии общества.</p>
+				<p>Правительству с участием облисполкомов, Минского горисполкома поручено разработать и утвердить республиканский план мероприятий по проведению в 2026 году Года белорусской женщины. Также Правительство будет координировать деятельность государственных органов, других организаций по выполнению этого плана.</p>
+				<p>Указ вступает в силу после его официального опубликования.</p>
+				<a href="../files/Указ №1 2026.pdf" download><img src="img/icon-PDF.svg" alt="PDF"><span>Скачать Указ №1 2026</span></a>
+				<img class="decree-img" src="img/Coat-of-Arms-of-the-Republic-of-Belarus.png" alt="Герб Республики Беларусь">
+			</div>	
+		</section>
+		@@include('blocks/footer.html')
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
